@@ -1,3 +1,4 @@
+![image](https://github.com/javaelliott1/FA22_FireFlower/assets/89791901/034bbef4-5384-4703-8731-daec47945975)
 For Advanced Topics in Data Science class
 
 This project is motivated by finding ways machine vision could be used to aid against the effects of climate change, specifically the worsening of forest fires. Already we use air patrols and weather monitoring, but our solution would be less costly and would require less aid from the public (via local reports). Our solution was to create a CNN model to provide wildfire detection and attempt localization.
