@@ -6,6 +6,7 @@ This project is motivated by finding ways machine vision could be used to aid ag
 We hit some technical problems, finding relevant and quality data lost us some time, and our use of some undocumented TensorFlow ML libraries took a lot of time and effort to understand and engage with.
 
 In the inspiration of how bullet trains were modeled after kingfisher birds' beaks, we thought of ways to get around the problem of forest fire image quality- transfer learning. Training our model on tf_flowers dataset, a set of bright, colorful flower images in a forest background, we could then retrain the model for forest fires.
+![image](https://github.com/javaelliott1/FA22_FireFlower/assets/89791901/07db7c08-dbeb-4d23-aa9e-dad912785912)
 
 We attempted a neural architecture search using AutoKeras on the flowers dataset. Using feature extraction, transfer learn that model onto our forest fire dataset, using Tensorboard and HParams to optimize performance, outputting an EfficientNet model pretrained on ImageNet, that yielded 96% accuracy.
 
